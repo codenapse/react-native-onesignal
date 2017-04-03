@@ -15,3 +15,11 @@ examples/AwesomeProject/ios/AwesomeProject.xcworkspace/xcuserdata
 ios/RCTOneSignal.xcodeproj/project.xcworkspace/xcshareddata
 examples/AwesomeProject/ios/Pods/Pods.xcodeproj/xcuserdata
 android/.idea
+
+# XCode user specific
+*.pbxuser
+!default.pbxuser
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
