@@ -4,6 +4,13 @@
 #import "RCTBridgeModule.h"
 #endif
 
+#if __has_include(<OneSignal/OneSignal.h>)
+#import <OneSignal/OneSignal.h>
+#else
+#import "OneSignal.h"
+#endif
+
+
 @interface RCTOneSignal : NSObject <RCTBridgeModule>
 
 - (id)initWithLaunchOptions:(NSDictionary *)launchOptions appId:(NSString *)appId;
